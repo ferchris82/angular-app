@@ -10,6 +10,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Hola mundo angular';
-  age = 34;
+  title = 'Hola mundo angular desde componente!';
+  
+  users = ['Andrea', 'Gloria', 'Karina', 'Christian'];
 }
